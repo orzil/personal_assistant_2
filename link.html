@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Assistance</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #333333;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #333333;
+      margin: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .form {
+      width: 400px;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-size: 18px;
+      color: #333333;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Personal Assistance</h1>
+    <h2>Welcome!<br>Enter your details, I'll do the rest.</h2>
+	<img src="personal robot  1.png" alt="Robot Image" width="300" height="300">
+    <form class="form" action="https://www.example.com/submit" method="POST">
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
