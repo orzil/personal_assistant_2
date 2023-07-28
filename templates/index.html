@@ -79,9 +79,9 @@
 <body>
   <div class="container">
     <h1>Personal Assistance</h1>
-    <h2>Welcome!<br>Enter your details, I'll do the rest.</h2>
-	<img src="personal robot  1.png" alt="Robot Image" width="300" height="300">
-    <form class="form" action="https://www.example.com/submit" method="POST">
+    <h2>Welcome to AXL!<br>Enter your details, I'll do the rest.</h2>
+    <img src="personal_robot_1_cleanup.png" alt="Robot Image" width="300" height="300">
+    <form class="form" action="{{ url_for('submit_form') }}" method="POST">
       <label for="email">Email:</label>
       <input type="text" id="email" name="email" required>
 
